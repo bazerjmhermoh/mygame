@@ -131,4 +131,6 @@ CMakeFiles/opengl.dir/main.cpp.obj: E:\jet\mygame\main.cpp \
  c:\mingw\include\c++\11.2.0\bits\basic_ios.tcc \
  c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
  c:\mingw\include\c++\11.2.0\istream \
- c:\mingw\include\c++\11.2.0\bits\istream.tcc
+ c:\mingw\include\c++\11.2.0\bits\istream.tcc \
+ E:/jet/mygame/glfw/include/GLFW/glfw3.h \
+ c:\mingw\x86_64-w64-mingw32\include\gl\gl.h

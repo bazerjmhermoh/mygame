@@ -69,6 +69,7 @@ include CMakeFiles/opengl.dir/progress.make
 include CMakeFiles/opengl.dir/flags.make
 
 CMakeFiles/opengl.dir/main.cpp.obj: CMakeFiles/opengl.dir/flags.make
+CMakeFiles/opengl.dir/main.cpp.obj: CMakeFiles/opengl.dir/includes_CXX.rsp
 CMakeFiles/opengl.dir/main.cpp.obj: main.cpp
 CMakeFiles/opengl.dir/main.cpp.obj: CMakeFiles/opengl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\jet\mygame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opengl.dir/main.cpp.obj"
@@ -91,6 +92,7 @@ opengl_EXTERNAL_OBJECTS =
 
 opengl.exe: CMakeFiles/opengl.dir/main.cpp.obj
 opengl.exe: CMakeFiles/opengl.dir/build.make
+opengl.exe: glfw/src/libglfw3.a
 opengl.exe: CMakeFiles/opengl.dir/linklibs.rsp
 opengl.exe: CMakeFiles/opengl.dir/objects1.rsp
 opengl.exe: CMakeFiles/opengl.dir/link.txt
