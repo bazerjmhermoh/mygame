@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\jet\mygame
+CMAKE_SOURCE_DIR = E:\mygame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\jet\mygame
+CMAKE_BINARY_DIR = E:\mygame
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles E:\jet\mygame\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles E:\mygame\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -212,6 +212,30 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+glad.obj: glad.c.obj
+.PHONY : glad.obj
+
+# target to build an object file
+glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/glad.c.obj
+.PHONY : glad.c.obj
+
+glad.i: glad.c.i
+.PHONY : glad.i
+
+# target to preprocess a source file
+glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/glad.c.i
+.PHONY : glad.c.i
+
+glad.s: glad.c.s
+.PHONY : glad.s
+
+# target to generate assembly for a file
+glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/glad.c.s
+.PHONY : glad.c.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -252,6 +276,9 @@ help:
 	@echo ... update_mappings
 	@echo ... glfw
 	@echo ... opengl
+	@echo ... glad.obj
+	@echo ... glad.i
+	@echo ... glad.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

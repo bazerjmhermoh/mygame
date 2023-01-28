@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\jet\mygame
+CMAKE_SOURCE_DIR = E:\mygame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\jet\mygame
+CMAKE_BINARY_DIR = E:\mygame
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -114,14 +114,14 @@ glfw/src/clean: glfw/src/CMakeFiles/update_mappings.dir/clean
 CMakeFiles/opengl.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\jet\mygame\CMakeFiles --progress-num=23,24 "Built target opengl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\mygame\CMakeFiles --progress-num=23,24,25 "Built target opengl"
 .PHONY : CMakeFiles/opengl.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/opengl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/opengl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 0
 .PHONY : CMakeFiles/opengl.dir/rule
 
 # Convenience name for target.
@@ -140,14 +140,14 @@ CMakeFiles/opengl.dir/clean:
 glfw/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\jet\mygame\CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\mygame\CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : glfw/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 0
 .PHONY : glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -166,14 +166,14 @@ glfw/CMakeFiles/uninstall.dir/clean:
 glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\jet\mygame\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\mygame\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target glfw"
 .PHONY : glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 0
 .PHONY : glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -192,14 +192,14 @@ glfw/src/CMakeFiles/glfw.dir/clean:
 glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\jet\mygame\CMakeFiles --progress-num=25 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\mygame\CMakeFiles --progress-num=26 "Built target update_mappings"
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/src/CMakeFiles/update_mappings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\jet\mygame\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 0
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
