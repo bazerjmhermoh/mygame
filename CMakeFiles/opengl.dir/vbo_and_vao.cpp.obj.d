@@ -1,5 +1,5 @@
-CMakeFiles/opengl.dir/main.cpp.obj: E:\mygame\main.cpp \
- E:\mygame\include/window.h E:\mygame\include/glad.h \
+CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj: E:\mygame\vbo_and_vao.cpp \
+ E:\mygame\include/vbo_and_vao.h E:\mygame\include/glad.h \
  E:\mygame\include/khrplatform.h \
  c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
  c:\mingw\x86_64-w64-mingw32\include\stdint.h \
@@ -133,10 +133,4 @@ CMakeFiles/opengl.dir/main.cpp.obj: E:\mygame\main.cpp \
  c:\mingw\include\c++\11.2.0\bits\basic_ios.tcc \
  c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
  c:\mingw\include\c++\11.2.0\istream \
- c:\mingw\include\c++\11.2.0\bits\istream.tcc E:\mygame\include/shader.h \
- c:\mingw\include\c++\11.2.0\fstream \
- c:\mingw\include\c++\11.2.0\bits\codecvt.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\basic_file.h \
- c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++io.h \
- c:\mingw\include\c++\11.2.0\bits\fstream.tcc \
- E:\mygame\include/vbo_and_vao.h
+ c:\mingw\include\c++\11.2.0\bits\istream.tcc

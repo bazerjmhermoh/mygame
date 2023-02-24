@@ -98,22 +98,73 @@ CMakeFiles/opengl.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/opengl.dir/glad.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\mygame\glad.c -o CMakeFiles\opengl.dir\glad.c.s
 
+CMakeFiles/opengl.dir/windows.cpp.obj: CMakeFiles/opengl.dir/flags.make
+CMakeFiles/opengl.dir/windows.cpp.obj: CMakeFiles/opengl.dir/includes_CXX.rsp
+CMakeFiles/opengl.dir/windows.cpp.obj: windows.cpp
+CMakeFiles/opengl.dir/windows.cpp.obj: CMakeFiles/opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\mygame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opengl.dir/windows.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl.dir/windows.cpp.obj -MF CMakeFiles\opengl.dir\windows.cpp.obj.d -o CMakeFiles\opengl.dir\windows.cpp.obj -c E:\mygame\windows.cpp
+
+CMakeFiles/opengl.dir/windows.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl.dir/windows.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\mygame\windows.cpp > CMakeFiles\opengl.dir\windows.cpp.i
+
+CMakeFiles/opengl.dir/windows.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl.dir/windows.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\mygame\windows.cpp -o CMakeFiles\opengl.dir\windows.cpp.s
+
+CMakeFiles/opengl.dir/shader.cpp.obj: CMakeFiles/opengl.dir/flags.make
+CMakeFiles/opengl.dir/shader.cpp.obj: CMakeFiles/opengl.dir/includes_CXX.rsp
+CMakeFiles/opengl.dir/shader.cpp.obj: shader.cpp
+CMakeFiles/opengl.dir/shader.cpp.obj: CMakeFiles/opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\mygame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/opengl.dir/shader.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl.dir/shader.cpp.obj -MF CMakeFiles\opengl.dir\shader.cpp.obj.d -o CMakeFiles\opengl.dir\shader.cpp.obj -c E:\mygame\shader.cpp
+
+CMakeFiles/opengl.dir/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl.dir/shader.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\mygame\shader.cpp > CMakeFiles\opengl.dir\shader.cpp.i
+
+CMakeFiles/opengl.dir/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl.dir/shader.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\mygame\shader.cpp -o CMakeFiles\opengl.dir\shader.cpp.s
+
+CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj: CMakeFiles/opengl.dir/flags.make
+CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj: CMakeFiles/opengl.dir/includes_CXX.rsp
+CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj: vbo_and_vao.cpp
+CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj: CMakeFiles/opengl.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\mygame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj -MF CMakeFiles\opengl.dir\vbo_and_vao.cpp.obj.d -o CMakeFiles\opengl.dir\vbo_and_vao.cpp.obj -c E:\mygame\vbo_and_vao.cpp
+
+CMakeFiles/opengl.dir/vbo_and_vao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl.dir/vbo_and_vao.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\mygame\vbo_and_vao.cpp > CMakeFiles\opengl.dir\vbo_and_vao.cpp.i
+
+CMakeFiles/opengl.dir/vbo_and_vao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl.dir/vbo_and_vao.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\mygame\vbo_and_vao.cpp -o CMakeFiles\opengl.dir\vbo_and_vao.cpp.s
+
 # Object files for target opengl
 opengl_OBJECTS = \
 "CMakeFiles/opengl.dir/main.cpp.obj" \
-"CMakeFiles/opengl.dir/glad.c.obj"
+"CMakeFiles/opengl.dir/glad.c.obj" \
+"CMakeFiles/opengl.dir/windows.cpp.obj" \
+"CMakeFiles/opengl.dir/shader.cpp.obj" \
+"CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj"
 
 # External object files for target opengl
 opengl_EXTERNAL_OBJECTS =
 
 opengl.exe: CMakeFiles/opengl.dir/main.cpp.obj
 opengl.exe: CMakeFiles/opengl.dir/glad.c.obj
+opengl.exe: CMakeFiles/opengl.dir/windows.cpp.obj
+opengl.exe: CMakeFiles/opengl.dir/shader.cpp.obj
+opengl.exe: CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj
 opengl.exe: CMakeFiles/opengl.dir/build.make
 opengl.exe: glfw/src/libglfw3.a
 opengl.exe: CMakeFiles/opengl.dir/linklibs.rsp
 opengl.exe: CMakeFiles/opengl.dir/objects1.rsp
 opengl.exe: CMakeFiles/opengl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\mygame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable opengl.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\mygame\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable opengl.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\opengl.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

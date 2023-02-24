@@ -260,6 +260,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+shader.obj: shader.cpp.obj
+.PHONY : shader.obj
+
+# target to build an object file
+shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/shader.cpp.obj
+.PHONY : shader.cpp.obj
+
+shader.i: shader.cpp.i
+.PHONY : shader.i
+
+# target to preprocess a source file
+shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/shader.cpp.i
+.PHONY : shader.cpp.i
+
+shader.s: shader.cpp.s
+.PHONY : shader.s
+
+# target to generate assembly for a file
+shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/shader.cpp.s
+.PHONY : shader.cpp.s
+
+vbo_and_vao.obj: vbo_and_vao.cpp.obj
+.PHONY : vbo_and_vao.obj
+
+# target to build an object file
+vbo_and_vao.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj
+.PHONY : vbo_and_vao.cpp.obj
+
+vbo_and_vao.i: vbo_and_vao.cpp.i
+.PHONY : vbo_and_vao.i
+
+# target to preprocess a source file
+vbo_and_vao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/vbo_and_vao.cpp.i
+.PHONY : vbo_and_vao.cpp.i
+
+vbo_and_vao.s: vbo_and_vao.cpp.s
+.PHONY : vbo_and_vao.s
+
+# target to generate assembly for a file
+vbo_and_vao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/vbo_and_vao.cpp.s
+.PHONY : vbo_and_vao.cpp.s
+
+windows.obj: windows.cpp.obj
+.PHONY : windows.obj
+
+# target to build an object file
+windows.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/windows.cpp.obj
+.PHONY : windows.cpp.obj
+
+windows.i: windows.cpp.i
+.PHONY : windows.i
+
+# target to preprocess a source file
+windows.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/windows.cpp.i
+.PHONY : windows.cpp.i
+
+windows.s: windows.cpp.s
+.PHONY : windows.s
+
+# target to generate assembly for a file
+windows.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/windows.cpp.s
+.PHONY : windows.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -282,6 +354,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... shader.obj
+	@echo ... shader.i
+	@echo ... shader.s
+	@echo ... vbo_and_vao.obj
+	@echo ... vbo_and_vao.i
+	@echo ... vbo_and_vao.s
+	@echo ... windows.obj
+	@echo ... windows.i
+	@echo ... windows.s
 .PHONY : help
 
 

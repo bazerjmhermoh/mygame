@@ -114,12 +114,12 @@ glfw/src/clean: glfw/src/CMakeFiles/update_mappings.dir/clean
 CMakeFiles/opengl.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\opengl.dir\build.make CMakeFiles/opengl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\mygame\CMakeFiles --progress-num=23,24,25 "Built target opengl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\mygame\CMakeFiles --progress-num=23,24,25,26,27,28 "Built target opengl"
 .PHONY : CMakeFiles/opengl.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/opengl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/opengl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\mygame\CMakeFiles 0
 .PHONY : CMakeFiles/opengl.dir/rule
@@ -192,7 +192,7 @@ glfw/src/CMakeFiles/glfw.dir/clean:
 glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\update_mappings.dir\build.make glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\mygame\CMakeFiles --progress-num=26 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\mygame\CMakeFiles --progress-num=29 "Built target update_mappings"
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.

@@ -10,6 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/mygame/glad.c" "CMakeFiles/opengl.dir/glad.c.obj" "gcc" "CMakeFiles/opengl.dir/glad.c.obj.d"
   "E:/mygame/main.cpp" "CMakeFiles/opengl.dir/main.cpp.obj" "gcc" "CMakeFiles/opengl.dir/main.cpp.obj.d"
+  "E:/mygame/shader.cpp" "CMakeFiles/opengl.dir/shader.cpp.obj" "gcc" "CMakeFiles/opengl.dir/shader.cpp.obj.d"
+  "E:/mygame/vbo_and_vao.cpp" "CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj" "gcc" "CMakeFiles/opengl.dir/vbo_and_vao.cpp.obj.d"
+  "E:/mygame/windows.cpp" "CMakeFiles/opengl.dir/windows.cpp.obj" "gcc" "CMakeFiles/opengl.dir/windows.cpp.obj.d"
   )
 
 # Targets to which this target links.

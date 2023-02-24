@@ -1,18 +1,5 @@
-CMakeFiles/opengl.dir/main.cpp.obj: E:\mygame\main.cpp \
- E:\mygame\include/window.h E:\mygame\include/glad.h \
- E:\mygame\include/khrplatform.h \
- c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
- c:\mingw\x86_64-w64-mingw32\include\stdint.h \
- c:\mingw\x86_64-w64-mingw32\include\crtdefs.h \
- c:\mingw\x86_64-w64-mingw32\include\corecrt.h \
- c:\mingw\x86_64-w64-mingw32\include\_mingw.h \
- c:\mingw\x86_64-w64-mingw32\include\_mingw_mac.h \
- c:\mingw\x86_64-w64-mingw32\include\_mingw_secapi.h \
- c:\mingw\x86_64-w64-mingw32\include\vadefs.h \
- c:\mingw\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
- c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
- c:\mingw\x86_64-w64-mingw32\include\stddef.h \
- E:/mygame/glfw/include/GLFW/glfw3.h c:\mingw\include\c++\11.2.0\iostream \
+CMakeFiles/opengl.dir/shader.cpp.obj: E:\mygame\shader.cpp \
+ E:\mygame\include/shader.h c:\mingw\include\c++\11.2.0\iostream \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\os_defines.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\cpu_defines.h \
@@ -24,6 +11,12 @@ CMakeFiles/opengl.dir/main.cpp.obj: E:\mygame\main.cpp \
  c:\mingw\include\c++\11.2.0\bits\postypes.h \
  c:\mingw\include\c++\11.2.0\cwchar \
  c:\mingw\x86_64-w64-mingw32\include\wchar.h \
+ c:\mingw\x86_64-w64-mingw32\include\corecrt.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_mac.h \
+ c:\mingw\x86_64-w64-mingw32\include\_mingw_secapi.h \
+ c:\mingw\x86_64-w64-mingw32\include\vadefs.h \
+ c:\mingw\x86_64-w64-mingw32\include\sdks/_mingw_ddk.h \
  c:\mingw\x86_64-w64-mingw32\include\corecrt_stdio_config.h \
  c:\mingw\x86_64-w64-mingw32\include\corecrt_wstdlib.h \
  c:\mingw\x86_64-w64-mingw32\include\_mingw_off_t.h \
@@ -35,6 +28,9 @@ CMakeFiles/opengl.dir/main.cpp.obj: E:\mygame\main.cpp \
  c:\mingw\include\c++\11.2.0\bits\exception_ptr.h \
  c:\mingw\include\c++\11.2.0\bits\exception_defines.h \
  c:\mingw\include\c++\11.2.0\bits\cxxabi_init_exception.h \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stddef.h \
+ c:\mingw\x86_64-w64-mingw32\include\stddef.h \
+ c:\mingw\x86_64-w64-mingw32\include\crtdefs.h \
  c:\mingw\include\c++\11.2.0\typeinfo \
  c:\mingw\include\c++\11.2.0\bits\hash_bytes.h \
  c:\mingw\include\c++\11.2.0\new \
@@ -57,6 +53,8 @@ CMakeFiles/opengl.dir/main.cpp.obj: E:\mygame\main.cpp \
  c:\mingw\include\c++\11.2.0\debug\debug.h \
  c:\mingw\include\c++\11.2.0\bits\predefined_ops.h \
  c:\mingw\include\c++\11.2.0\cstdint \
+ c:\mingw\lib\gcc\x86_64-w64-mingw32\11.2.0\include\stdint.h \
+ c:\mingw\x86_64-w64-mingw32\include\stdint.h \
  c:\mingw\include\c++\11.2.0\bits\localefwd.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++locale.h \
  c:\mingw\include\c++\11.2.0\clocale \
@@ -133,10 +131,10 @@ CMakeFiles/opengl.dir/main.cpp.obj: E:\mygame\main.cpp \
  c:\mingw\include\c++\11.2.0\bits\basic_ios.tcc \
  c:\mingw\include\c++\11.2.0\bits\ostream.tcc \
  c:\mingw\include\c++\11.2.0\istream \
- c:\mingw\include\c++\11.2.0\bits\istream.tcc E:\mygame\include/shader.h \
+ c:\mingw\include\c++\11.2.0\bits\istream.tcc \
  c:\mingw\include\c++\11.2.0\fstream \
  c:\mingw\include\c++\11.2.0\bits\codecvt.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\basic_file.h \
  c:\mingw\include\c++\11.2.0\x86_64-w64-mingw32\bits\c++io.h \
- c:\mingw\include\c++\11.2.0\bits\fstream.tcc \
- E:\mygame\include/vbo_and_vao.h
+ c:\mingw\include\c++\11.2.0\bits\fstream.tcc E:\mygame\include/glad.h \
+ E:\mygame\include/khrplatform.h E:/mygame/glfw/include/GLFW/glfw3.h
